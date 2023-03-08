@@ -1,0 +1,95 @@
+.description-container {
+  text-align: left;
+  margin: 20px 45px;
+}
+
+.perfume-name {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  line-height: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.perfume-paragraph {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-price {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-weight: bolder;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-right: 30px;
+}
+
+.add-button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.shopping-cart-image {
+  height: 25px;
+}
+
+.add-to-cart-text {
+  color: white;
+  margin-left: 15px;
+  font-weight: bolder;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .description-container {
+    margin: 0 20px;
+  }
+
+  .perfume-header {
+    margin: 10px 0;
+  }
+
+  .perfume-name {
+    margin: 0;
+  }
+
+  .perfume-paragraph {
+    margin: 10px 0 0 0;
+  }
+
+  .new-price {
+    font-size: 30px;
+  }
+
+  .old-price {
+    margin-right: 35%;
+  }
+
+  .price-container {
+    margin: 0;
+  }
+
+  .add-button {
+    margin-top: 0;
+  }
+}

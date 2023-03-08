@@ -1,0 +1,36 @@
+.main-container {
+  background-color: white;
+  width: 35%;
+  height: 55%;
+  display: flex;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.parfume-desktop-image {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.parfume-mobile-image {
+  display: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .main-container {
+    height: 93vh;
+    width: 93vw;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .parfume-desktop-image {
+    display: none;
+  }
+
+  .parfume-mobile-image {
+    display: block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+}
